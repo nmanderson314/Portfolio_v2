@@ -1,0 +1,17 @@
+.main-content{
+    margin-top: 40px;
+}
+
+.nav-item{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#about-note2{
+    margin-top: 20px;
+    align-content: right;
+}
+#about-note2 .p{
+    align-content: right;
+
+}
