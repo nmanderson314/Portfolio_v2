@@ -16,24 +16,30 @@ body{
     padding: 20px;
 }
 
-#main-education{
-    background-image: url("../images/fretwell-formatted.png");
-    /* "assets/images/fretwell-formatted.png"; */
-}
 img{
     max-width: 100%;
     max-height: 100%;
 }
-#main-education{
+.main-education{
     color: whitesmoke;
     padding: 0;
 
 }
 .centered {
     position: absolute;
-    /* top: 50%;
+  top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+     /*  transform: translate(-50%, -50%); */
+}
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
 }
 
 #about-note2{
@@ -51,4 +57,12 @@ img{
     background: none;
     border: none;
 
+}
+
+.stacked-content{
+    padding: 80px 50px;
+
+}
+.even{
+    background-image: url("../images/cloudy-black-night-sky-4k-motion-background.jpg");
 }
